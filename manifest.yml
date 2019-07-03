@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: ixhh-onboarding4
+  name: ixhh-onboarding4
+  memory: 256M
+  stack: cflinuxfs3
